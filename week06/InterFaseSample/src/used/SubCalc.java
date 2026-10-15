@@ -6,3 +6,4 @@ public class SubCalc implements Calculator {
         return x - y;
     }
 }
+

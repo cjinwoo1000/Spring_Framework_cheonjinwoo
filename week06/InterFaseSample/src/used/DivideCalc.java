@@ -6,3 +6,4 @@ public class DivideCalc implements Calculator {
         return x/y;
     }
 }
+

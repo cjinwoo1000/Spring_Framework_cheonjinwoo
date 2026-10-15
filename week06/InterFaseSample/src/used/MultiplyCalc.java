@@ -6,3 +6,4 @@ public class MultiplyCalc implements Calculator {
         return x*y;
     }
 }
+

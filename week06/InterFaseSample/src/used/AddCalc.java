@@ -6,3 +6,4 @@ public class AddCalc implements Calculator {
         return x + y;
     }
 }
+

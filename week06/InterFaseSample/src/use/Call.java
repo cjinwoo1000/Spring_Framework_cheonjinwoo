@@ -6,7 +6,6 @@ import used.MultiplyCalc;
 import used.DivideCalc;
 import used.Calculator;
 
-
 public class Call {
     public static void main(String[] args) {
         Calculator add = new AddCalc();
