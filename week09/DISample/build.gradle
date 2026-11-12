@@ -27,3 +27,13 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+//한글이 깨지지 않게 utf-8로 읽게 설정
+tasks.withType(JavaCompile).configureEach {
+	options.encoding = 'UTF-8'
+}
+
+tasks.withType(JavaExec).configureEach {
+	systemProperty 'stdout.encoding', 'UTF-8'
+	systemProperty 'stderr.encoding', 'UTF-8'
+}
